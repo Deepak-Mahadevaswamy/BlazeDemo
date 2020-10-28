@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="3" name="Failed suite [BlazeDemo]">
+  <test name="FlightBookingTest(failed)">
+    <classes>
+      <class name="com.blazedemo.tests.FlightBookingTest">
+        <methods>
+          <include name="FlightBookingValidTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.blazedemo.tests.FlightBookingTest -->
+    </classes>
+  </test> <!-- FlightBookingTest(failed) -->
+</suite> <!-- Failed suite [BlazeDemo] -->
