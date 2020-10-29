@@ -19,4 +19,5 @@ Approach - UI Automation is achieved using Page Object Model [POF] framework
     3. From the search list iterate through the prices of each flight and select the flight with lowest price
     4. Once the flight is selected, provide the passenger details and confirm the booking
     5. Verify that the booking is successful
-  - To test the project, download and open this repository on Eclipse, right click on 'FlightBooking.xml' under 'Suites' folder and RunAs->TestNG Suite
+  - To test the project, download and open this repository on Eclipse, right click on project --> Maven Build and then perform Maven --> Install to execute the tests
+  
